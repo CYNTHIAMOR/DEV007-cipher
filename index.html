@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <script src="index.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+  <div id="root">
+    <h1>Divide para vencer!</h1>
+    <!--creamos un elemento que describe el árbol de la interfaz de usuario en su totalidad-->
+
+    <div class="padre">
+      <main>
+        <!--parte principal-->
+        <div class="wrap">
+          <!--indica qye puede haber cambio de linea -->
+          <div class="container-0">
+            <section id="section1">
+            </section>
+            <div class="box_image">
+              <img src="https://i.gifer.com/GR7O.gif" alt="Caesar" />
+            </div>
+            <!--use una cajita para poner mi gif image del Cesar-->
+
+            <h2>
+              <center>
+                Cuentame tu Secreto
+              </center>
+            </h2>
+            <p>
+              <center>
+                <input type="text" placeholder="&#128102 Escribe aqui tu mensaje" class="caramelo" id="mensaje" />
+              </center>
+            </p>
+            <!--un input que se llama mensaje, para agregar texto-->
+            <h2>
+              <center>Nivel de Seguridad</center>
+            </h2>
+            <p>
+              <center>
+                <input type="number" placeholder="&#128102 Escoge tu nivel" class="caramelo" id="desplazamiento"
+                  size="4" />
+              </center>
+            </p>
+            <!--un input para crear un desplzamiento y variar respuestas-->
+
+            <p>
+              <center>
+                <a href="#">
+                  <button type="button" class="cifrar" id="cifrar">Cifrar</button>
+                </a>
+                <a href="#">
+                  <button type="button" class="cifrar" id="descifrar">Descifrar</button>
+                </a>
+              </center>
+            </p>
+            <!--ambos botones van en el mismo parrafo para que asi se acomoden los dos botones-->
+            <!--identifico a cada boton, le di class para usar mi css y dar estilos-->
+            <h2>
+              <center>MENSAJE CIFRADO/DESCIFRADO</center>
+            </h2>
+            <p>
+              <center>
+                <input type="text" placeholder="&#128102 Resultado" class="caramelo" id="mensaje2" />
+              </center>
+            </p>
+            <!-- usamos un imput tipo texto-->
+
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
